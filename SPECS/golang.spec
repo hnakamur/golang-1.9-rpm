@@ -138,7 +138,7 @@ Provides:       go-srpm-macros
 Patch0:         golang-1.9rc1-verbose-build.bash
 
 # use the arch dependent path in the bootstrap
-Patch212:       golang-1.5-bootstrap-binary-path.patch
+Patch212:       golang-1.9rc1-bootstrap-binary-path.patch
 
 # we had been just removing the zoneinfo.zip, but that caused tests to fail for users that 
 # later run `go test -a std`. This makes it only use the zoneinfo.zip where needed in tests.
