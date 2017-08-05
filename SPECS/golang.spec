@@ -278,9 +278,6 @@ Requires:       %{name} = %{version}-%{release}
 
 cp %{PATCH216} ./src/runtime/
 
-# don't include chacha test vectors in buildID
-mv ./src/vendor/golang_org/x/crypto/chacha20poly1305/chacha20poly1305_test_vectors.go ./src/vendor/golang_org/x/crypto/chacha20poly1305/chacha20poly1305_vectors_test.go
-
 %build
 # print out system information
 uname -a
