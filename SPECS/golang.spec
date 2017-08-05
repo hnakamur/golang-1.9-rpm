@@ -135,7 +135,7 @@ Provides:       go-srpm-macros
 %endif
 
 
-Patch0:         golang-1.2-verbose-build.patch
+Patch0:         golang-1.9rc1-verbose-build.bash
 
 # use the arch dependent path in the bootstrap
 Patch212:       golang-1.5-bootstrap-binary-path.patch
