@@ -99,11 +99,11 @@
 %endif
 
 %global go_api 1.9
-%global go_version 1.9rc1
+%global go_version 1.9rc2
 
 Name:           golang
 Version:        1.9
-Release:        0.rc1%{?dist}
+Release:        0.rc2%{?dist}
 Summary:        The Go Programming Language
 # source tree includes several copies of Mark.Twain-Tom.Sawyer.txt under Public Domain
 License:        BSD and Public Domain
@@ -529,6 +529,9 @@ fi
 %endif
 
 %changelog
+* Tue Aug  8 2017 Hiroaki Nakamura <hnakamur@gmail.com> - 1.9-0.rc2
+- bump to 1.9rc2
+
 * Sat Aug  5 2017 Hiroaki Nakamura <hnakamur@gmail.com> - 1.9-0.rc1
 - bump to 1.9rc1
 
